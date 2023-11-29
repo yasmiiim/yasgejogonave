@@ -20,6 +20,6 @@ public class Enemys : MonoBehaviour
 
     private void MoviEnemy()
     {
-        transform.Translate(Vector3.down * speedEnemy * Time.deltaTime);
+        transform.Translate(Vector3.left * speedEnemy * Time.deltaTime);
     }
 }

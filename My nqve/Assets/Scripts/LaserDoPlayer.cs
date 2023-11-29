@@ -21,6 +21,6 @@ public class LaserDoPlayer : MonoBehaviour
 
     private void MoviLaser()
     {
-        transform .Translate(Vector3.up * speedLaser * Time.deltaTime);
+        transform.Translate(Vector3.up * speedLaser * Time.deltaTime);
     }
 }
