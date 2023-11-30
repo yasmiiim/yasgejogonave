@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34f588f9c1c51144babe5fcdd2fb5736
-      internalID: -442670423
+      spriteID: 99103e30b840f0b45a4f315d25ce6681
+      internalID: 23922789
       vertices: []
       indices: 
       edges: []
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8bd440af88ccfc4a83424f16d5484c9
-      internalID: 1583247349
+      spriteID: f57eadbd0e7029e42988f1d9f7f0bb1f
+      internalID: 1486646974
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2e19abda53a5904b947742ebfd18b10
-      internalID: 637477084
+      spriteID: a204382fb6ff87440908f692f348eb3f
+      internalID: 1463774942
       vertices: []
       indices: 
       edges: []
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 661f9e76bde6c5d489f27a5a716e1c64
-      internalID: 982593474
+      spriteID: ac29795c58e8edd44bf3c08f17d7fbe0
+      internalID: 1887461266
       vertices: []
       indices: 
       edges: []
@@ -202,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b43aae0c92489c4c89e8b972cdebc34
-      internalID: 121978354
+      spriteID: eb7e4e799277d8d4aafefe949f838d84
+      internalID: 804953644
       vertices: []
       indices: 
       edges: []
@@ -223,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52ba5950aec026e499773fed1551f9a0
-      internalID: 430775119
+      spriteID: d6435fbb327083a4dba68783101cda81
+      internalID: -370079086
       vertices: []
       indices: 
       edges: []
@@ -244,8 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ab72c0516c32b54698ff4cf339312c3
-      internalID: -443374265
+      spriteID: aa2873dd38e78504dbd1ba5062688ffd
+      internalID: 1485453430
       vertices: []
       indices: 
       edges: []
@@ -261,13 +261,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      jjjj-fotor-bg-remover-20231129144514_6: -443374265
-      jjjj-fotor-bg-remover-20231129144514_3: 982593474
-      jjjj-fotor-bg-remover-20231129144514_1: 1583247349
-      jjjj-fotor-bg-remover-20231129144514_4: 121978354
-      jjjj-fotor-bg-remover-20231129144514_2: 637477084
-      jjjj-fotor-bg-remover-20231129144514_0: -442670423
-      jjjj-fotor-bg-remover-20231129144514_5: 430775119
+      jjjj-fotor-bg-remover-20231129144514_6: 1485453430
+      jjjj-fotor-bg-remover-20231129144514_3: 1887461266
+      jjjj-fotor-bg-remover-20231129144514_1: 1486646974
+      jjjj-fotor-bg-remover-20231129144514_4: 804953644
+      jjjj-fotor-bg-remover-20231129144514_2: 1463774942
+      jjjj-fotor-bg-remover-20231129144514_0: 23922789
+      jjjj-fotor-bg-remover-20231129144514_5: -370079086
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -15,17 +15,28 @@ public class Enemys : MonoBehaviour
     public float tempoMaxLaser;
     public float tempoAtual;
     
+    public int vidaMax;
+
+    public int vidaAtual;
+    
+    [SerializeField] private Animator animator;
+    private bool isDead = false;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        vidaAtual = vidaMax;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        MoviEnemy();
-        Atirar();
+        if (!isDead)
+        {
+            MoviEnemy();
+            Atirar();
+        }
     }
 
     private void MoviEnemy()
@@ -44,5 +55,25 @@ public class Enemys : MonoBehaviour
             Instantiate(laserEnemy, disparo3.position, Quaternion.Euler(0f, 0f, 90f));
             tempoAtual = tempoMaxLaser;
         }
+    }
+    
+   
+    
+    public void ReceberDano()
+    {
+        vidaAtual -= 1;
+
+        if (vidaAtual <=0)
+        {
+           Die(); 
+        }
+    }
+    
+    void Die()
+    {
+        isDead = true;
+        animator.SetTrigger("explosion");
+
+        Destroy(gameObject, 1f);
     }
 }

@@ -29,6 +29,8 @@ public class LaserDoPlayer : MonoBehaviour
 
         if (other.CompareTag("Enemy"))
         {
+            other.gameObject.GetComponent<Enemys>().ReceberDano();
+            
             Destroy(gameObject);
         }
     }
