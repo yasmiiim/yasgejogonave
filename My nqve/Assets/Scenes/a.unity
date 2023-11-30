@@ -1293,6 +1293,7 @@ GameObject:
   - component: {fileID: 1823846009}
   - component: {fileID: 1823846008}
   - component: {fileID: 1823846013}
+  - component: {fileID: 1823846014}
   - component: {fileID: 1823846012}
   m_Layer: 0
   m_Name: Nave
@@ -1443,6 +1444,20 @@ MonoBehaviour:
   localDeDisparo1: {fileID: 1044910706}
   velocidadeDaNave: 5
   contemLaserDuplo: 0
+--- !u!114 &1823846014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823846007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23433393c7da46e46b40dac18b965872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaMax: 2
+  vidaAtual: 0
 --- !u!1 &1994118696
 GameObject:
   m_ObjectHideFlags: 0

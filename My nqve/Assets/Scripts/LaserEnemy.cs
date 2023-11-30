@@ -28,6 +28,7 @@ public class LaserEnemy : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
+            other.gameObject.GetComponent<PlayerVida>().ReceberDano();
             Destroy(gameObject);
         }
     }
