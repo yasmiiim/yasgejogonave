@@ -7,9 +7,10 @@ public class PlayerVida : MonoBehaviour
     public int vidaMax;
 
     public int vidaAtual;
-    
-    
+
+
     [SerializeField] private Animator animator;
+    [SerializeField] private barraVida barraDeVida;
     private bool isDead = false;
     
     private NaveMovi playerMovimento;
@@ -17,7 +18,9 @@ public class PlayerVida : MonoBehaviour
     void Start()
     {
         vidaAtual = vidaMax;
+        barraDeVida.AlterarBarraDeVida(vidaAtual, vidaMax);
         playerMovimento = GetComponent<NaveMovi>(); 
+        
     }
 
     // Update is called once per frame
@@ -29,6 +32,7 @@ public class PlayerVida : MonoBehaviour
     public void ReceberDano()
     {
         vidaAtual -= 1;
+        barraDeVida.AlterarBarraDeVida(vidaAtual, vidaMax);
 
         if (vidaAtual <=0)
         {
