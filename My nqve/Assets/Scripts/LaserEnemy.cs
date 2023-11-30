@@ -5,10 +5,11 @@ using UnityEngine;
 public class LaserEnemy : MonoBehaviour
 {
     public float SpeedLaser;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -20,5 +21,14 @@ public class LaserEnemy : MonoBehaviour
     private void MoveLaser()
     {
         transform.Translate(Vector3.up * SpeedLaser * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if (other.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

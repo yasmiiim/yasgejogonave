@@ -23,4 +23,13 @@ public class LaserDoPlayer : MonoBehaviour
     {
         transform.Translate(Vector3.up * speedLaser * Time.deltaTime);
     }
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if (other.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
