@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: f7fbd41b426f95d42a9d145081837a3b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 277
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f8f08c5e0f88e49925b97af60c1479
+      internalID: 902486879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 253
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed438cf166d27646b598b5b80ebd3a4
+      internalID: -994007075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 148
+        width: 166
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d19c5172f81bd946862fec1e53a3d6d
+      internalID: -1857444078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 272
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d9c7dc82bfe684eab4b279c2daced5
+      internalID: -239046588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 269
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56a04c63710fcd468a04e2802cebb00
+      internalID: 612324814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_5
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 278
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f0590afc8231140b53d6f50e4f27fd
+      internalID: 426721430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_6
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 147
+        width: 127
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb422a8535fa744cb18e6a24b449ea4
+      internalID: -1103297566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 240
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a72e5fb8a1d81448daf53a36304616
+      internalID: -1578307618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 269
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529db665b21d9774ebc77d2e67920304
+      internalID: -1849476038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 233
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3a7be1c21648d41a2f5b12bcd607f7
+      internalID: -1800108002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_10
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 201
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfb27c0b24508d4390bda71d703fba8
+      internalID: -301528718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 170
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e291dc0775f5e48ae55fa1e761fe73
+      internalID: -798431018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 230
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bdb8f0da074d8488cd7cf02ba45653
+      internalID: -73240746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_13
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 236
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0534b1e4c3539604ea0ee278bb064e49
+      internalID: 146562257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 195
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279e921525b4ca148a65595c3546cb0c
+      internalID: 1212188547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 181
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea96d470ec5baf4418b816e2a81a2c70
+      internalID: 1892146287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_16
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 176
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9a42ce75a031941bf84739b6f0b0d2
+      internalID: 757101753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 175
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20480e9463b23664a8ee5bf45cb1cb65
+      internalID: 379943931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 173
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21236dbc88f0c245b335c200a091c58
+      internalID: -1316508837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 152
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5608d2b8d556844b5a9b446831992a
+      internalID: 864543438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_20
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 96
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070f2b5eae5177749bdc51c29a0a0a86
+      internalID: 675874822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 30
+        width: 103
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0a781ea3957194591f16b0efdcd149
+      internalID: -216869547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 33
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbfbb6132ce1c54c833ca133f15151b
+      internalID: -21906873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_23
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 98
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb6310d7b48f9c48b0769eaeac7314b
+      internalID: -722280659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 101
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad136ae513546349bf834bf577638ef
+      internalID: 1623038353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_25
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 106
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3bd477e7be9194c82d1b321b20e7dd
+      internalID: -775563899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_26
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 27
+        width: 140
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbb4294fe9702b4fb35fd02860d2474
+      internalID: 1035694956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 60
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccc154ad1cac384689d17728b0cbf7c
+      internalID: 1377175667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_28
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 12
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232d5578a7b5bd14fbe4adcb6b5ebebd
+      internalID: -280189323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_29
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 25
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987275eec17fc61469f56d2dd1432eb4
+      internalID: -1460044550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_4: 612324814
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_18: -1316508837
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_14: 1212188547
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_15: 1892146287
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_23: -722280659
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_17: 379943931
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_22: -21906873
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_0: 902486879
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_28: -280189323
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_29: -1460044550
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_11: -798431018
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_20: 675874822
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_8: -1849476038
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_9: -1800108002
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_7: -1578307618
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_21: -216869547
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_3: -239046588
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_24: 1623038353
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_6: -1103297566
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_1: -994007075
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_27: 1377175667
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_16: 757101753
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_10: -301528718
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_19: 864543438
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_12: -73240746
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_13: 146562257
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_2: -1857444078
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_5: 426721430
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_26: 1035694956
+      103791238-pixel-art-explosions-game-icons-set-comic-boom-flame-effects-for-emotion-8-bit-vector-bang-burst-fotor-bg-remover-20231129221445_25: -775563899
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
