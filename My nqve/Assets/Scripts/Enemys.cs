@@ -18,6 +18,8 @@ public class Enemys : MonoBehaviour
     public int vidaMax;
 
     public int vidaAtual;
+
+    public int pontos;
     
     [SerializeField] private Animator animator;
     private bool isDead = false;
@@ -65,7 +67,7 @@ public class Enemys : MonoBehaviour
 
         if (vidaAtual <=0)
         {
-           Die(); 
+            Die(); 
         }
     }
     
@@ -74,6 +76,8 @@ public class Enemys : MonoBehaviour
         isDead = true;
         animator.SetTrigger("explosion");
 
+        GameManager.instance.AumentarPontuação(pontos);
         Destroy(gameObject, 1f);
+        
     }
 }
