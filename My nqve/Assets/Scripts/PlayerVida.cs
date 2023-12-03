@@ -13,6 +13,8 @@ public class PlayerVida : MonoBehaviour
 
     public GameObject escudo;
     public bool escudoAtivado;
+
+    private Animator anim;
     
     
 
@@ -31,6 +33,7 @@ public class PlayerVida : MonoBehaviour
         
         escudo.SetActive(false);
         escudoAtivado = false;
+        anim = GetComponent<Animator>();
 
     }
 
@@ -42,16 +45,17 @@ public class PlayerVida : MonoBehaviour
 
     void Awake()
     {
-        AtivarEscudo();
+        
     }
     
 
     public void AtivarEscudo()
     {
-        vidaAtualEscudo = vidaMaxEscudo;
+        vidaAtualEscudo = vidaMaxEscudo; ;
         
         escudo.SetActive(true);
         escudoAtivado = true;
+        anim.SetTrigger("escudo da nave");
         Debug.Log("ativou");
     }
 
@@ -70,8 +74,8 @@ public class PlayerVida : MonoBehaviour
 
         if (vidaAtual == 5)
         {
-            escudo.SetActive(true);
-            escudoAtivado = true;
+            AtivarEscudo();
+           
         }
         else
         {
