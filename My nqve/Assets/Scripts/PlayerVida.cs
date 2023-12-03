@@ -6,8 +6,15 @@ using UnityEngine;
 public class PlayerVida : MonoBehaviour
 {
     public int vidaMax;
+    public int vidaMaxEscudo = 5; 
 
     public int vidaAtual;
+    public int vidaAtualEscudo;
+
+    public GameObject escudo;
+    public bool escudoAtivado;
+    
+    
 
 
     [SerializeField] private Animator animator;
@@ -20,27 +27,65 @@ public class PlayerVida : MonoBehaviour
     {
         vidaAtual = vidaMax;
         barraDeVida.AlterarBarraDeVida(vidaAtual, vidaMax);
-        playerMovimento = GetComponent<NaveMovi>(); 
+        playerMovimento = GetComponent<NaveMovi>();
         
+        escudo.SetActive(false);
+        escudoAtivado = false;
+
     }
 
     // Update is called once per frame
     void Update()
     {
+       
+    }
+
+    void Awake()
+    {
+        AtivarEscudo();
+    }
+    
+
+    public void AtivarEscudo()
+    {
+        vidaAtualEscudo = vidaMaxEscudo;
         
+        escudo.SetActive(true);
+        escudoAtivado = true;
+        Debug.Log("ativou");
     }
 
     public void ReceberDano()
     {
-        vidaAtual -= 1;
-        barraDeVida.AlterarBarraDeVida(vidaAtual, vidaMax);
-
-        if (vidaAtual <=0)
+        if (escudoAtivado == false)
         {
-            Die(); 
+            vidaAtual -= 1;
+            barraDeVida.AlterarBarraDeVida(vidaAtual, vidaMax);
+
+            if (vidaAtual <= 0)
+            {
+                Die();
+            }
+        }
+
+        if (vidaAtual == 5)
+        {
+            escudo.SetActive(true);
+            escudoAtivado = true;
+        }
+        else
+        {
+            vidaAtualEscudo -= 1;
+
+            if (vidaAtualEscudo <= 0)
+            {
+                escudo.SetActive(false);
+                escudoAtivado = false;
+            }
         }
     }
-    
+
+
     void Die()
     {
         isDead = true;
