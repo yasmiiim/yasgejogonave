@@ -7,9 +7,14 @@ public class NaveMovi : MonoBehaviour
     public Rigidbody2D rig;
     
     public GameObject laserDoPlayer;
+    
     public Transform localDeDisparo1;
+    public Transform localDeDisparo2;
+    public Transform localDeDisparo3;
     
     public float velocidadeDaNave;
+    public float tempoMaxDoLaserDuplo;
+    public float tempoAtualDoLaserDupo;
 
     public bool contemLaserDuplo;
     
@@ -18,6 +23,8 @@ public class NaveMovi : MonoBehaviour
     void Start()
     {
         contemLaserDuplo = false;
+
+        tempoAtualDoLaserDupo = tempoMaxDoLaserDuplo;
     }
 
    
@@ -25,6 +32,16 @@ public class NaveMovi : MonoBehaviour
     {
         Mov();
         ExecutarLaser();
+
+        if (contemLaserDuplo == true)
+        {
+            tempoAtualDoLaserDupo -= Time.deltaTime;
+
+            if (tempoAtualDoLaserDupo <= 0)
+            {
+                DesativarLaserDuplo();
+            }
+        }
     }
 
     private void Mov()
@@ -41,7 +58,18 @@ public class NaveMovi : MonoBehaviour
             {
                 Instantiate(laserDoPlayer, localDeDisparo1.position, localDeDisparo1.rotation);
             }
+            else
+            {
+                Instantiate(laserDoPlayer, localDeDisparo2.position, localDeDisparo2.rotation);
+                Instantiate(laserDoPlayer, localDeDisparo3.position, localDeDisparo3.rotation);
+            }
         }
+    }
+
+    private void DesativarLaserDuplo()
+    {
+        contemLaserDuplo = false;
+        tempoAtualDoLaserDupo = tempoMaxDoLaserDuplo;
     }
     
     
