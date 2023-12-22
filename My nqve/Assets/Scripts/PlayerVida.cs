@@ -15,6 +15,8 @@ public class PlayerVida : MonoBehaviour
     public bool escudoAtivado;
 
     private Animator anim;
+
+    
     
     
 
