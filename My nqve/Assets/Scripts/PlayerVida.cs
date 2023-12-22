@@ -28,6 +28,8 @@ public class PlayerVida : MonoBehaviour
     void Start()
     {
         vidaAtual = vidaMax;
+        vidaAtualEscudo = vidaMaxEscudo;
+        
         barraDeVida.AlterarBarraDeVida(vidaAtual, vidaMax);
         playerMovimento = GetComponent<NaveMovi>();
         
@@ -55,8 +57,22 @@ public class PlayerVida : MonoBehaviour
         
         escudo.SetActive(true);
         escudoAtivado = true;
-        anim.SetTrigger("escudo da nave");
+        anim.SetTrigger("ESCUDO TESTE");
         Debug.Log("ativou");
+    }
+
+    public void GanharVidaExtra(int vidaExtra)
+    {
+        if (vidaAtual + vidaExtra <= vidaMax)
+        {
+            vidaAtual += vidaExtra;
+        }
+        else
+        {
+            vidaAtual = vidaMax;
+        }
+
+        //barraDeVida.value = vidaAtual;
     }
 
     public void ReceberDano()
