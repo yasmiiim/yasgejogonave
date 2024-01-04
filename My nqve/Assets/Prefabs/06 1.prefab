@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1b8eab41b95d13498a54560bd94b11e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  impactoDoLaserPlayer: {fileID: 2516326722333609995, guid: 5a0a2c60c4a52cc478556c78832991ce, type: 3}
   speedLaser: 10
 --- !u!61 &-7095848413835378232
 BoxCollider2D:

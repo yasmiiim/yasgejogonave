@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class LaserDoPlayer : MonoBehaviour
 {
-
+    public GameObject impactoDoLaserPlayer;
+    
     public float speedLaser;
 
     // Start is called before the first frame update
@@ -30,6 +31,8 @@ public class LaserDoPlayer : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             other.gameObject.GetComponent<Enemys>().ReceberDano();
+
+            Instantiate(impactoDoLaserPlayer, transform.position, transform.rotation);
             
             Destroy(gameObject);
         }

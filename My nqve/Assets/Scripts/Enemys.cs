@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Enemys : MonoBehaviour
 {
@@ -25,6 +27,7 @@ public class Enemys : MonoBehaviour
     public GameObject itensDoprar;
     
     public int chances;
+    
 
     [SerializeField] private Animator animator;
     private bool isDead = false;
@@ -95,5 +98,15 @@ public class Enemys : MonoBehaviour
         }
         Destroy(gameObject, 1f);
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D collisionInfo)
+    {
+        if (collisionInfo.gameObject.CompareTag("Player"))
+        {
+            collisionInfo.gameObject.GetComponent<PlayerVida>().ReceberDano();
+            animator.SetTrigger("explosion");
+            Destroy(this.gameObject);
+        }
     }
 }

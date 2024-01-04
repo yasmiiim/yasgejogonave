@@ -131,7 +131,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.11378455, y: -0.003196478}
@@ -167,7 +167,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!114 &8959599142337234290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,6 +189,8 @@ MonoBehaviour:
   vidaAtual: 2
   pontos: 10
   enemyAtivado: 1
+  itensDoprar: {fileID: 0}
+  chances: 0
   animator: {fileID: 8959599142337234291}
 --- !u!95 &8959599142337234291
 Animator:
