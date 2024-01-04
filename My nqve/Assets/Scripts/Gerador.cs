@@ -20,11 +20,14 @@ public class Gerador : MonoBehaviour
    
     void Update()
     {
-        tempoAtualSpawns -= Time.deltaTime;
-
         if (tempoAtualSpawns <= 0)
         {
-            SpawnarInimigo(); 
+            SpawnarInimigo();
+            tempoAtualSpawns = tempoMaxSpawns; 
+        }
+        else
+        {
+            tempoAtualSpawns -= Time.deltaTime;
         }
     }
 

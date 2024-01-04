@@ -50,11 +50,16 @@ public class NaveMovi : MonoBehaviour
         }
     }
 
+    public float velocidadeVertical = 8f; 
+
     private void Mov()
     {
-        teclasApertadas = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        rig.velocity = teclasApertadas.normalized * velocidadeDaNave;
+        float movimentoVertical = Input.GetAxisRaw("Vertical");
+        Vector2 direcaoMovimento = new Vector2(0f, movimentoVertical); 
+
+        rig.velocity = direcaoMovimento.normalized * velocidadeVertical;
     }
+
 
     private void ExecutarLaser()
     {
