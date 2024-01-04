@@ -20,12 +20,15 @@ public class Enemys : MonoBehaviour
 
     public int pontos;
 
+    public bool enemyAtivado;
+
     [SerializeField] private Animator animator;
     private bool isDead = false;
     
     // Start is called before the first frame update
     void Start()
     {
+        enemyAtivado = false;
         vidaAtual = vidaMax;
         animator = GetComponent<Animator>();
     }
@@ -37,7 +40,13 @@ public class Enemys : MonoBehaviour
         {
             MoviEnemy();
             Atirar();
+            AtivarEnemy();
         }
+    }
+
+    public void AtivarEnemy()
+    {
+        enemyAtivado = true;
     }
 
     private void MoviEnemy()
