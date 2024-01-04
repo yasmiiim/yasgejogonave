@@ -59,7 +59,7 @@ public class PlayerVida : MonoBehaviour
         
         escudo.SetActive(true);
         escudoAtivado = true;
-        anim.SetTrigger("ESCUDO TESTE");
+        anim.SetTrigger("ESCUDOOOOOOOO");
         Debug.Log("ativou");
     }
 
