@@ -188,7 +188,7 @@ Transform:
   m_GameObject: {fileID: 33425826}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 25, y: 1.42, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0884, y: 1.0884, z: 1.0884}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -550,7 +550,7 @@ MonoBehaviour:
   player: {fileID: 1823846011}
   offset: {x: 0, y: 0, z: 0}
   initialXlimit: -1.63
-  topYLimit: 4.84
+  topYLimit: 2.27
   bottomYLimit: -1
 --- !u!1 &376631355
 GameObject:
@@ -601,7 +601,7 @@ GameObject:
   - component: {fileID: 614982761}
   - component: {fileID: 614982760}
   m_Layer: 0
-  m_Name: heart pixel art 254x254
+  m_Name: vida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2465,6 +2465,18 @@ PrefabInstance:
     - target: {fileID: 6792667689469664236, guid: 7e4705eb96720224fbe208ec75fe8b9d, type: 3}
       propertyPath: m_RootOrder
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792667689469664236, guid: 7e4705eb96720224fbe208ec75fe8b9d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.072149
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792667689469664236, guid: 7e4705eb96720224fbe208ec75fe8b9d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.072149
+      objectReference: {fileID: 0}
+    - target: {fileID: 6792667689469664236, guid: 7e4705eb96720224fbe208ec75fe8b9d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.072149
       objectReference: {fileID: 0}
     - target: {fileID: 6792667689469664236, guid: 7e4705eb96720224fbe208ec75fe8b9d, type: 3}
       propertyPath: m_LocalPosition.x
