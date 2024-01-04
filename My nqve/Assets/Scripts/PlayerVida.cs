@@ -89,12 +89,7 @@ public class PlayerVida : MonoBehaviour
                 Die();
             }
         }
-
-        if (vidaAtual == 5)
-        {
-            AtivarEscudo();
-           
-        }
+        
         else
         {
             vidaAtualEscudo -= 1;

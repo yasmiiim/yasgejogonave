@@ -59,7 +59,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8959599142337234297}
-  m_LocalRotation: {x: -0, y: -0, z: 0.002131039, w: -0.99999774}
+  m_LocalRotation: {x: 0, y: 0, z: -0.0021292581, w: 0.99999774}
   m_LocalPosition: {x: 7.99, y: 5.95, z: 0}
   m_LocalScale: {x: 0.8741672, y: 0.8741672, z: 0.8741672}
   m_ConstrainProportionsScale: 0
@@ -182,11 +182,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd2748ac644361c4281bae5c2e07c4d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserEnemy: {fileID: 0}
-  localDisparo: {fileID: 0}
+  laserEnemy: {fileID: 4537360528317138358, guid: 4ddbf266b5e9ad64a8876e644b119cee, type: 3}
+  localDisparo: {fileID: 6395532510932034380}
   disparo2: {fileID: 8959599143134359908}
   disparo3: {fileID: 8959599142746066335}
-  itensDoprar: {fileID: 4301382613783779667, guid: 7e4705eb96720224fbe208ec75fe8b9d, type: 3}
+  player: {fileID: 0}
+  distanciaMinimaAtirar: 10
+  anguloVisao: 60
   speedEnemy: 10
   tempoMaxLaser: 0.5
   tempoAtual: 0
