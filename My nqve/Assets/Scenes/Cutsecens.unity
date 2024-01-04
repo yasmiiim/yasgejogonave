@@ -1099,7 +1099,7 @@ PlayableDirector:
   - key: {fileID: -8552143254704635570, guid: d62baedf65d285849afd55dad0a93542, type: 2}
     value: {fileID: 0}
   - key: {fileID: -888800474702486326, guid: d62baedf65d285849afd55dad0a93542, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 1703534899}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1505908909
@@ -1519,7 +1519,7 @@ RectTransform:
   m_GameObject: {fileID: 1703534899}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.450433, y: 4.450433, z: 4.450433}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1375399553}

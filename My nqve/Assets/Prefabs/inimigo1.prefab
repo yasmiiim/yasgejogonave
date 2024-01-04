@@ -134,7 +134,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.77337307, y: 0.85079265}
+  m_Offset: {x: -0.11378455, y: -0.003196478}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -145,7 +145,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.314847, y: 2.0324388}
+  m_Size: {x: 4.0891623, y: 3.740417}
   m_EdgeRadius: 0
 --- !u!50 &8959599142337234293
 Rigidbody2D:
@@ -180,14 +180,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd2748ac644361c4281bae5c2e07c4d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserEnemy: {fileID: 0}
+  laserEnemy: {fileID: 4537360528317138358, guid: 4ddbf266b5e9ad64a8876e644b119cee, type: 3}
   localDisparo: {fileID: 6395532510932034380}
-  speedEnemy: 10
+  speedEnemy: 17
   tempoMaxLaser: 0.5
   tempoAtual: 0
   vidaMax: 0
   vidaAtual: 2
   pontos: 10
+  enemyAtivado: 1
   animator: {fileID: 8959599142337234291}
 --- !u!95 &8959599142337234291
 Animator:
