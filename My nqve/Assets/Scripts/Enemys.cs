@@ -22,8 +22,7 @@ public class Enemys : MonoBehaviour
     public int vidaAtual;
 
     public int pontos;
-    public int chances;
-    
+
     [SerializeField] private Animator animator;
     private bool isDead = false;
     
@@ -80,16 +79,6 @@ public class Enemys : MonoBehaviour
         animator.SetTrigger("explosion");
 
         GameManager.instance.AumentarPontuação(pontos);
-        
-        int numero = Random.Range(0, 100);
-        
-        if(numero <= chances)
-        {
-            Instantiate(itensDoprar, transform.position, Quaternion.Euler(0f, 0f, 0f));
-        }
- 
-        
-        
         Destroy(gameObject, 1f);
         
     }

@@ -11,6 +11,7 @@ public class NaveMovi : MonoBehaviour
     public Transform localDeDisparo1;
     public Transform localDeDisparo2;
     public Transform localDeDisparo3;
+    public AudioSource sound;
     
     public float velocidadeDaNave;
     public float tempoMaxDoLaserDuplo;
@@ -20,6 +21,11 @@ public class NaveMovi : MonoBehaviour
     
     private Vector2 teclasApertadas;
     
+    
+    void Awake()
+    {
+        sound = GetComponent<AudioSource>();
+    }
     void Start()
     {
         contemLaserDuplo = false;
@@ -52,8 +58,11 @@ public class NaveMovi : MonoBehaviour
 
     private void ExecutarLaser()
     {
+       
         if(Input.GetButtonDown("Fire1"))
         {
+            sound.Play();
+            
             if (contemLaserDuplo == false)
             {
                 Instantiate(laserDoPlayer, localDeDisparo1.position, localDeDisparo1.rotation);
