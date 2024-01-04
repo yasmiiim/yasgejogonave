@@ -7,10 +7,7 @@ public class Enemys : MonoBehaviour
 
     public GameObject laserEnemy;
     public Transform localDisparo;
-    public Transform disparo2;
-    public Transform disparo3;
     
-    public GameObject itensDoprar;
         
     public float speedEnemy;
 
@@ -55,8 +52,6 @@ public class Enemys : MonoBehaviour
         if(tempoAtual <=0 )
         {
             Instantiate(laserEnemy, localDisparo.position, Quaternion.Euler(0f, 0f, 90f));
-            Instantiate(laserEnemy, disparo2.position, Quaternion.Euler(0f, 0f, 90f));
-            Instantiate(laserEnemy, disparo3.position, Quaternion.Euler(0f, 0f, 90f));
             tempoAtual = tempoMaxLaser;
         }
     }
