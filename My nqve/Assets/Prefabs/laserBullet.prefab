@@ -115,4 +115,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imapctoLaserEnemy: {fileID: 2189837482486902268, guid: 60e6961a4b5e69d4e977158b09405014, type: 3}
-  SpeedLaser: 30
+  SpeedLaser: 20

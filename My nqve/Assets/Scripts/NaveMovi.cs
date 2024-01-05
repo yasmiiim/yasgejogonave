@@ -54,30 +54,37 @@ public class NaveMovi : MonoBehaviour
 
     private void Mov()
     {
-        float movimentoVertical = Input.GetAxisRaw("Vertical");
-        Vector2 direcaoMovimento = new Vector2(0f, movimentoVertical); 
-
-        rig.velocity = direcaoMovimento.normalized * velocidadeVertical;
+        teclasApertadas = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        rig.velocity = teclasApertadas.normalized * velocidadeDaNave;
     }
 
 
     private void ExecutarLaser()
     {
-       
-        if(Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
             sound.Play();
-            
-            if (contemLaserDuplo == false)
+
+            if (!contemLaserDuplo)
             {
-                Instantiate(laserDoPlayer, localDeDisparo1.position, localDeDisparo1.rotation);
+                GameObject laser1 = Instantiate(laserDoPlayer, localDeDisparo1.position, localDeDisparo1.rotation);
+                DestruirAposTempo(laser1, 1.0f); // Chama a função para destruir após 1 segundo
             }
             else
             {
-                Instantiate(laserDoPlayer, localDeDisparo2.position, localDeDisparo2.rotation);
-                Instantiate(laserDoPlayer, localDeDisparo3.position, localDeDisparo3.rotation);
+                GameObject laser2 = Instantiate(laserDoPlayer, localDeDisparo2.position, localDeDisparo2.rotation);
+                GameObject laser3 = Instantiate(laserDoPlayer, localDeDisparo3.position, localDeDisparo3.rotation);
+
+                DestruirAposTempo(laser2, 1.0f); // Chama a função para destruir após 1 segundo
+                DestruirAposTempo(laser3, 1.0f); // Chama a função para destruir após 1 segundo
             }
         }
+    }
+
+// Função para destruir o objeto após um determinado tempo
+    private void DestruirAposTempo(GameObject objeto, float tempo)
+    {
+        Destroy(objeto, tempo);
     }
 
     private void DesativarLaserDuplo()

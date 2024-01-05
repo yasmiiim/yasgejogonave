@@ -27,6 +27,8 @@ public class Enemys : MonoBehaviour
     public GameObject itensDoprar;
     
     public int chances;
+    public Transform player;
+    
     
 
     [SerializeField] private Animator animator;
@@ -46,7 +48,11 @@ public class Enemys : MonoBehaviour
         if (!isDead)
         {
             MoviEnemy();
-            Atirar();
+            if (enemyAtivado && player != null && Vector3.Distance(transform.position, player.position) <= 15.0f)
+            {
+                Atirar();
+            }
+           
         }
     }
 
@@ -98,15 +104,5 @@ public class Enemys : MonoBehaviour
         }
         Destroy(gameObject, 1f);
         
-    }
-
-    private void OnCollisionEnter2D(Collision2D collisionInfo)
-    {
-        if (collisionInfo.gameObject.CompareTag("Player"))
-        {
-            collisionInfo.gameObject.GetComponent<PlayerVida>().ReceberDano();
-            animator.SetTrigger("explosion");
-            Destroy(this.gameObject);
-        }
     }
 }

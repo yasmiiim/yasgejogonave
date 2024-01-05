@@ -131,7 +131,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.11378455, y: -0.003196478}
@@ -180,17 +180,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd2748ac644361c4281bae5c2e07c4d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserEnemy: {fileID: 4537360528317138358, guid: 4ddbf266b5e9ad64a8876e644b119cee, type: 3}
+  laserEnemy: {fileID: 0}
   localDisparo: {fileID: 6395532510932034380}
-  speedEnemy: 17
-  tempoMaxLaser: 0.5
+  speedEnemy: 7
+  tempoMaxLaser: 1
   tempoAtual: 0
   vidaMax: 0
   vidaAtual: 2
   pontos: 10
   enemyAtivado: 1
   itensDoprar: {fileID: 0}
-  chances: 0
+  chances: 100
   animator: {fileID: 8959599142337234291}
 --- !u!95 &8959599142337234291
 Animator:
