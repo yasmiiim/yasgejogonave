@@ -6,6 +6,7 @@ using Random = UnityEngine.Random;
 
 public class Enemys : MonoBehaviour
 {
+    public AudioSource sound;
 
     public GameObject laserEnemy;
     public Transform localDisparo;
@@ -34,6 +35,10 @@ public class Enemys : MonoBehaviour
     [SerializeField] private Animator animator;
     private bool isDead = false;
     
+    void Awake()
+        {
+            sound = GetComponent<AudioSource>();
+        }
     // Start is called before the first frame update
     void Start()
     {
@@ -68,12 +73,14 @@ public class Enemys : MonoBehaviour
 
     private void Atirar()
     {
+
         tempoAtual -= Time.deltaTime;
 
         if(tempoAtual <=0 )
         {
             Instantiate(laserEnemy, localDisparo.position, Quaternion.Euler(0f, 0f, 90f));
             tempoAtual = tempoMaxLaser;
+            sound.Play();
         }
     }
     
