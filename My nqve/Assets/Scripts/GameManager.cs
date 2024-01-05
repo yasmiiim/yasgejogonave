@@ -6,13 +6,12 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public AudioSource musicaDoJogo;
-    public AudioSource musicaDeGameOver;
+   
 
     public Text textoDePontuacao;
     public GameObject painelDeGameOver;
     public Text textoDePontuacaoFinal;
-    public Text textoDeHighscore;
+    
     
     public int pontuacaoAtual;
     
@@ -48,5 +47,7 @@ public class GameManager : MonoBehaviour
         
         painelDeGameOver.SetActive(true);
         textoDePontuacaoFinal.text = "PONTUAÇÃO: " + pontuacaoAtual;
+        
+        
     }
 }
