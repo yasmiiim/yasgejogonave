@@ -48,7 +48,7 @@ public class Enemys : MonoBehaviour
         if (!isDead)
         {
             MoviEnemy();
-            if (enemyAtivado && player != null && Vector3.Distance(transform.position, player.position) <= 15.0f)
+            if (enemyAtivado && player != null && Vector3.Distance(transform.position, player.position) <= 25.0f)
             {
                 Atirar();
             }

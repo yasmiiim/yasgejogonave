@@ -182,15 +182,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laserEnemy: {fileID: 0}
   localDisparo: {fileID: 6395532510932034380}
-  speedEnemy: 7
-  tempoMaxLaser: 1
+  speedEnemy: 10
+  tempoMaxLaser: 0.2
   tempoAtual: 0
   vidaMax: 0
   vidaAtual: 2
   pontos: 10
   enemyAtivado: 1
   itensDoprar: {fileID: 0}
-  chances: 100
+  chances: 10
+  player: {fileID: 0}
   animator: {fileID: 8959599142337234291}
 --- !u!95 &8959599142337234291
 Animator:

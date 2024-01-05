@@ -48,7 +48,7 @@ public class ItensColetaveis : MonoBehaviour
 
             //if (powerUpVida == true)
             //{
-               // coll.gameObject.GetComponent<PlayerVida>().GanharVida(vidas);
+            // coll.gameObject.GetComponent<PlayerVida>().GanharVida(vidas);
             //}
             
             Destroy(this.gameObject);
