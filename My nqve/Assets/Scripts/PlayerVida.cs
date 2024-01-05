@@ -86,7 +86,9 @@ public class PlayerVida : MonoBehaviour
 
             if (vidaAtual <= 0)
             {
+                GameManager.instance.GameOver();
                 Die();
+               
             }
         }
         

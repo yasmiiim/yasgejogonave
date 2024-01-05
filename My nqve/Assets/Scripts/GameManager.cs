@@ -6,14 +6,21 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public AudioSource musicaDoJogo;
+    public AudioSource musicaDeGameOver;
 
     public Text textoDePontuacao;
+    public GameObject painelDeGameOver;
+    public Text textoDePontuacaoFinal;
+    public Text textoDeHighscore;
     
     public int pontuacaoAtual;
     
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
+        
         pontuacaoAtual = 0;
         textoDePontuacao.text = "PONTUAÇÃO: " + pontuacaoAtual;
     }
@@ -33,5 +40,13 @@ public class GameManager : MonoBehaviour
     {
         pontuacaoAtual += ganharPontos;
         textoDePontuacao.text = "PONTUAÇÃO: " + pontuacaoAtual;
+    }
+
+    public void GameOver()
+    {
+        Time.timeScale = 0f;
+        
+        painelDeGameOver.SetActive(true);
+        textoDePontuacaoFinal.text = "PONTUAÇÃO: " + pontuacaoAtual;
     }
 }
